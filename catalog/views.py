@@ -136,7 +136,6 @@ class BlogUpdateView(UpdateView):
     model = Blog
     fields = (
         "title",
-        "slug",
         "content",
         "preview",
         "date_creation",
